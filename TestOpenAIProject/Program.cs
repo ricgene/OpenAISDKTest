@@ -16,7 +16,7 @@ try
         throw new InvalidOperationException("OpenAI API key not found in appsettings.json");
     }
 
-    var client = new OpenAIClient(config.OpenAI.ApiKey);
+    var client = new OpenAIClient(new Uri("https://api.openai.com"), new Azure.AzureKeyCredential(config.OpenAI.ApiKey));
     Console.WriteLine("OpenAIClient instantiated successfully (type resolved).");
 }
 catch (Exception ex)
@@ -26,10 +26,10 @@ catch (Exception ex)
 
 public class Config
 {
-    public OpenAIConfig OpenAI { get; set; }
+    public OpenAIConfig? OpenAI { get; set; }
 }
 
 public class OpenAIConfig
 {
-    public string ApiKey { get; set; }
+    public string? ApiKey { get; set; }
 }
