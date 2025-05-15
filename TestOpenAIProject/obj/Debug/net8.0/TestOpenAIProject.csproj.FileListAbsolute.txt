@@ -1,0 +1,5 @@
+/home/rgenet/gitl/OpenAISDKTest/TestOpenAIProject/obj/Debug/net8.0/TestOpenAIProject.csproj.AssemblyReference.cache
+/home/rgenet/gitl/OpenAISDKTest/TestOpenAIProject/obj/Debug/net8.0/TestOpenAIProject.GeneratedMSBuildEditorConfig.editorconfig
+/home/rgenet/gitl/OpenAISDKTest/TestOpenAIProject/obj/Debug/net8.0/TestOpenAIProject.AssemblyInfoInputs.cache
+/home/rgenet/gitl/OpenAISDKTest/TestOpenAIProject/obj/Debug/net8.0/TestOpenAIProject.AssemblyInfo.cs
+/home/rgenet/gitl/OpenAISDKTest/TestOpenAIProject/obj/Debug/net8.0/TestOpenAIProject.csproj.CoreCompileInputs.cache
